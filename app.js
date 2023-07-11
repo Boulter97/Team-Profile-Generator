@@ -121,7 +121,21 @@ function promptUser(){
         });
 }    
         function generateHTML() {
-            const htmlCode = '<html>Your generated HTML code here</html>';
+            let htmlCode = 
+            `<html>
+              <head>
+                <title>Team Roster</title>
+                <style>
+                  /* Add any CSS styles here for your HTML */
+                </style>
+              </head>
+              <body>
+                <h1>Team Roster</h1>
+                <!-- Your dynamically generated team roster here -->
+              </body>
+            </html>
+            `;
+    
             fs.writeFile('team.html', htmlCode, (err) => {
               if (err) {
                 console.error(err);
