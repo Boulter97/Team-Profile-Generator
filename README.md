@@ -4,6 +4,8 @@ Team Profile Generator
 **Project Description**
 -
 This homework is to develop a Node.js command-line application that takes in information about employees on a software engineering team and generates an HTML webpage that displays summaries for each person.
+
+-Dev notes :- will need to go back and and tests and work on deleting cards as part of future development
  
 **User Story**
 -
@@ -33,9 +35,10 @@ This homework is to develop a Node.js command-line application that takes in inf
   
 **Deployed link & Screenshot**
 -
-- (Put Link Here)
+- [Untitled_ Jul 11, 2023 1_31 PM.webm](https://github.com/Boulter97/Team-Profile-Generator/assets/118101244/88fe697a-1258-41e5-bb66-85ed20443560)
 
-(Put Screenshot Here)
+
+<img width="1431" alt="Screenshot 2023-07-11 at 1 27 28 pm" src="https://github.com/Boulter97/Team-Profile-Generator/assets/118101244/45aadd22-882e-4880-a7c4-0b8bd38c7156">
 
 
 **References & Resources**
