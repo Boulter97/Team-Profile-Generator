@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+      <title>Team Roster</title>
+      <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+        padding: 20px;
+        margin: 0;
+      }
+      
+      .header {
+        text-align: center;
+        background-color: blue;
+        margin-bottom: 30px;
+        padding: 30px 0;
+      }
+      
+      h1 {
+        color: rgb(241, 240, 249);
+        background-color: blue;
+        margin-bottom: 20px;
+        padding: 20px;
+        width: 97%;
+        text-align: center;
+        margin-top: 0;
+      }
+      
+      #cards-wrapper {
+            margin-left: 10px;
+          }
+      #team-cards {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-gap: 20px;
+      }
+      
+      .card {
+        background-color: white;
+        border-radius: 5px;
+        padding: 10px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+      
+      .card-title {
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 10px;
+        text-align: center;
+      }
+      
+      .card-body {
+        margin-bottom: 10px;
+      }
+      </style>
+      </head>
+      <body>
+        <h1>Team Roster</h1>
+        <section id="team-cards">
+          
+      <div class="card">
+        <div class="card-title">Conor - Manager</div>
+        <ul class="card-body">
+          <li><strong>ID:</strong> 101</li>
+          <li><strong>Email:</strong> conor@gmail.com</li>
+          <li><strong>Phone Number:</strong> 3252 324 532</li>
+        </ul>
+      </div>
+    
+      <div class="card">
+        <div class="card-title">Jack - Engineer</div>
+        <ul class="card-body">
+          <li><strong>ID:</strong> 202</li>
+          <li><strong>Email:</strong> jack@gmail.com</li>
+          <li><strong>GitHub:</strong> dsfuwef</li>
+        </ul>
+      </div>
+    
+      <div class="card">
+        <div class="card-title">Leo - Intern</div>
+        <ul class="card-body">
+          <li><strong>ID:</strong> 303</li>
+          <li><strong>Email:</strong> leo@gmail.com</li>
+          <li><strong>School:</strong> Paw Patrol</li>
+        </ul>
+      </div>
+    
+        </section>
+      </body>
+    </html>
